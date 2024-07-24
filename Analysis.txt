@@ -17,3 +17,4 @@ Reason: Removing a product by key in a HashMap is O(1).
 Optimization Strategies-->
 
 Load Factor Management: Ensure the HashMap's load factor is optimized to maintain O(1) performance. Rehashing might be needed when the load factor threshold is exceeded.
+Memory Optimization: Periodically clean up unused or stale entries to free up memory.
